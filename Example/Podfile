@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'react-native-page-view_Example' do
+  pod 'react-native-page-view', :path => '../'
+
+  target 'react-native-page-view_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
